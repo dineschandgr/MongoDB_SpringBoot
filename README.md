@@ -13,9 +13,9 @@ Preqequisites
 #Cluster Mode - Replication
 
 #create 3 mongo server cluster with 1 primary and 2 secondary
-mongod --port 27017 --dbpath "C:\Users\keeth\Desktop\Dinesh-Spring-boot\mongoDB\mongo-replication\data0" --replSet "rs0" --bind_ip localhost 
-mongod --port 27018 --dbpath "C:\Users\keeth\Desktop\Dinesh-Spring-boot\mongoDB\mongo-replication\data1" --replSet "rs0" --bind_ip localhost 
-mongod --port 27019 --dbpath "C:\Users\keeth\Desktop\Dinesh-Spring-boot\mongoDB\mongo-replication\data2" --replSet "rs0" --bind_ip localhost 
+mongod --port 27017 --dbpath "C:\Users\keeth\Desktop\Dinesh-Spring-boot\mongoDB\mongo-replication\data0" --replSet "rs0" --bind_ip localhost <br/>
+mongod --port 27018 --dbpath "C:\Users\keeth\Desktop\Dinesh-Spring-boot\mongoDB\mongo-replication\data1" --replSet "rs0" --bind_ip localhost <br/>
+mongod --port 27019 --dbpath "C:\Users\keeth\Desktop\Dinesh-Spring-boot\mongoDB\mongo-replication\data2" --replSet "rs0" --bind_ip localhost <br/>
 
 mongo shell client
 #this wil initiate the replica set and add 27017 to the replica set
